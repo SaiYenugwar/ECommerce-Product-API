@@ -17,34 +17,19 @@ The JSON data is available at the following URL:
 You can directly access and download the JSON file using this link.
 
 Example Usage
-You can fetch and use the JSON data in your projects. Below are examples of how to do this using different programming languages:
+You can fetch and use the JSON data in your projects. Below are examples :-
 
-JavaScript (Node.js)
-javascript
-Copy code
-const fetch = require('node-fetch');
+JavaScript :-
 
-const url = 'https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json';
-
-fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
-        // Process the product data here
-    })
-    .catch(error => console.error('Error fetching the JSON data:', error));
-Python
-python
-Copy code
-import requests
-
-url = 'https://raw.githubusercontent.com/SaiYenugwar/API/main/Product_Data.json'
-
-response = requests.get(url)
-data = response.json()
+Get all products
+fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
 
 
 
 
 Contact
 If you have any questions or suggestions, please feel free to reach out to me at https://saiyenugwar.bio.link
+
+
