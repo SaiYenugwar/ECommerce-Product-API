@@ -13,7 +13,7 @@ git clone https://github.com/SaiYenugwar/ECommerce-Product-API.git
 
 Accessing the JSON Data
 The JSON data is available at the following URL:
-[Product.json]([https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json])
+https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json
 
 You can directly access and download the JSON file using this link.
 
