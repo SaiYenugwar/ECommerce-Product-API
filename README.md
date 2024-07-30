@@ -24,13 +24,13 @@ Below are examples :-
 
 JavaScript :-
 
-Get all products
+### Get all products
 
 fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json')
             .then(res=>res.json())
             .then(json=>console.log(json))
 
-Get a single product by Id
+### Get a single product by Id
 
 fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json')
   .then(res => res.json())
@@ -40,7 +40,7 @@ fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/
     console.log(product);
   })
 
-Get products in a specific category
+### Get products in a specific category
 
 fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json')
   .then(res => res.json())
