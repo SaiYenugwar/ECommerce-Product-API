@@ -49,6 +49,23 @@ fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/
     console.log(product);
   })
 
+### Output
+
+{
+    "id": "",
+    "image": "",
+    "title": "",
+    "brand": "",
+    "price": "",
+    "category": "",
+    "subcategory": "",
+    "description": "",
+    "rating": {
+        "star": "",
+        "count": ""
+    }
+}
+
 # Data Overview
 Total Products: 172
 
