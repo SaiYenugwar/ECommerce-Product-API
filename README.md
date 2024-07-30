@@ -1,4 +1,4 @@
-Product Data API
+# ECommerce Product API
 
 This repository contains JSON data for various products including clothing, mobile phones, air conditioners, televisions, and more. The data is structured and ready to be used in different applications for testing, development, or educational purposes.
 
@@ -8,10 +8,10 @@ To get a local copy of the repository, you can clone it using the following comm
 
 sh
 Copy code
-git clone https://github.com/SaiYenugwar/API.git
+git clone https://github.com/SaiYenugwar/ECommerce-Product-API.git
 Accessing the JSON Data
 The JSON data is available at the following URL:
-[Product_Data.json]([https://raw.githubusercontent.com/SaiYenugwar/API/main/Product_Data.json])
+[Product.json]([https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json])
 
 You can directly access and download the JSON file using this link.
 
@@ -23,7 +23,7 @@ javascript
 Copy code
 const fetch = require('node-fetch');
 
-const url = 'https://raw.githubusercontent.com/SaiYenugwar/API/main/Product_Data.json';
+const url = 'https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json';
 
 fetch(url)
     .then(response => response.json())
