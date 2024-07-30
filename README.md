@@ -1,5 +1,5 @@
 # ECommerce Product API
-<img width="270" alt="image" src="https://github.com/user-attachments/assets/3f3602eb-5035-471d-be14-ee4b911aa4d8">
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/3f3602eb-5035-471d-be14-ee4b911aa4d8">
 
 This repository contains JSON data for various products including clothing, mobile phones, air conditioners, televisions, and more. The data is structured and ready to be used in different applications for testing, development, or educational purposes.
 
