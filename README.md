@@ -8,7 +8,9 @@ Clone the Repository
 To get a local copy of the repository, you can clone it using the following command:
 
 
-git clone https://github.com/SaiYenugwar/ECommerce-Product-API.git
+```http
+  git clone https://github.com/SaiYenugwar/ECommerce-Product-API.git
+```
 
 
 Accessing the JSON Data
