@@ -29,13 +29,13 @@ Below are examples :-
 JavaScript :-
 
 ### Get all products
-
+```
 fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json')
             .then(res=>res.json())
             .then(json=>console.log(json))
-
+```
 ### Get a single product by Id
-
+```
 fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json')
   .then(res => res.json())
   .then(json => {
@@ -43,18 +43,18 @@ fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/
     const product = json.find(item => item.id === productId);
     console.log(product);
   })
-
+```
 ### Get products in a specific category
-
+```
 fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/Products.json')
   .then(res => res.json())
   .then(json => {
     const product = json.filter(item => item.category === "Mobile");
     console.log(product);
   })
-
+```
 ### Output
-
+```
 {
     "id": "",
     "image": "",
@@ -69,7 +69,7 @@ fetch('https://raw.githubusercontent.com/SaiYenugwar/ECommerce-Product-API/main/
         "count": ""
     }
 }
-
+```
 # Data Overview
 Total Products: 172
 
